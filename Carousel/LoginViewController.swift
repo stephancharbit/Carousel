@@ -60,6 +60,25 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
     }
     
     
+    // The scrollView is in the process of scrolling...
+    func scrollViewDidScroll(_ scrollView: UIScrollView){
+        print("SSSSCCCCRRRRROLLLLLLLLLLL")
+
+        // If the scrollView has been scrolled down by 50px or more...
+        if scrollView.contentOffset.y <= -50 {
+            // Hide the keyboard
+            view.endEditing(true)
+            print("TTTEEEEEEESSSSSSSSSSSSSTTTTTTTTT")
+        }
+    }
+    
+    // The keyboard is about to be hidden...
+    func keyboardWillHide(notification: NSNotification) {
+        // Move the buttons back down to it's original position
+        buttonParentView.frame.origin.y = buttonInitialY
+    }
+    
+    
     // The main view is about to appear...
     override func viewWillAppear(_ animated: Bool) {
 //        // Set initial transform values 20% of original size

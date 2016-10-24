@@ -2,7 +2,7 @@
 
 The purpose of this homework is to leverage views, view properties, and events to create a high fidelity prototype that is difficult to distinguish from a production app. We're going to use the techniques from this week to implement the Carousel app from the signed out state to the basic signed in state.
 
-Time spent: `<Number of hours spent>`
+Time spent: `8 so far`
 
 ### Features
 
@@ -67,7 +67,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/stephancharbit/Carousel/blob/master/carousel_walkthrough.gif' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
