@@ -9,30 +9,30 @@ Time spent: `<Number of hours spent>`
 ### Required User Stories
 
 1. Landing Screen
-  - [ ] Static photo tiles on the initial screen.
-  - [ ] User can scroll to reveal sign in buttons.
+  - [x] Static photo tiles on the initial screen.
+  - [x] User can scroll to reveal sign in buttons.
 1. Sign In
-  - [ ] Tapping on email/password reveals the keyboard and shifts the scroll view and Sign In button up.
+  - [x] Tapping on email/password reveals the keyboard and shifts the scroll view and Sign In button up.
   - Upon tapping the Sign In button.
-     - [ ] If the username or password fields are empty, user sees an error alert.
-     - [ ] If credentials are incorrect, user sees a loading indicator for 2 seconds followed by an error alert.
-     - [ ] If the credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign In screens.
+     - [x] If the username or password fields are empty, user sees an error alert.
+     - [x] If credentials are incorrect, user sees a loading indicator for 2 seconds followed by an error alert.
+     - [x] If the credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign In screens.
 1. Tutorial Screens
-  - [ ] User can page between the screens.
+  - [X] User can page between the screens.
 1. Image Timeline
-  - [ ] Display a scrollable view of images.
-  - [ ] User can tap on the conversations button to see the conversations screen (push).
-  - [ ] User can tap on the profile image to see the settings view (modal from below).
+  - [x] Display a scrollable view of images.
+  - [x] User can tap on the conversations button to see the conversations screen (push).
+  - [x] User can tap on the profile image to see the settings view (modal from below).
 1. Conversations
-  - [ ] User can dismiss the conversations screen.
+  - [x] User can dismiss the conversations screen.
 1. Settings
-  - [ ] User can dismiss the settings screen.
-  - [ ] User can log out.
+  - [x] User can dismiss the settings screen.
+  - [x] User can log out.
 
 ### Optional User Stories
 
 1. Landing Screen:  
-  - [ ] Photo tiles move, scale and rotate while user scrolls.
+  - [x] Photo tiles move, scale and rotate while user scrolls.
 1. Sign In:
   - [ ] User can scroll down to dismiss keyboard.
   - [ ] User sees the form scale up and fade it in as the screen appears.
@@ -42,8 +42,8 @@ Time spent: `<Number of hours spent>`
   - [ ] Tapping on "Terms" shows a web view with the terms.
   - [ ] User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
 1. Tutorial Screens:
-  - [ ] User can page between the screens with updated dots.
-  - [ ] Upon reaching the 4th page, the page indicator dots are hidden and "Take Carousel for a Spin" button is shown.
+  - [x] User can page between the screens with updated dots.
+  - [x] Upon reaching the 4th page, the page indicator dots are hidden and "Take Carousel for a Spin" button is shown.
 1. Learn more about Carousel:
   - [ ] Show the "Learn more about Carousel" button in the photo timeline.
   - [ ] Tap the X to dismiss the banner.
