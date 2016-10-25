@@ -62,13 +62,10 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
     
     // The scrollView is in the process of scrolling...
     func scrollViewDidScroll(_ scrollView: UIScrollView){
-        print("SSSSCCCCRRRRROLLLLLLLLLLL")
-
         // If the scrollView has been scrolled down by 50px or more...
         if scrollView.contentOffset.y <= -50 {
             // Hide the keyboard
             view.endEditing(true)
-            print("TTTEEEEEEESSSSSSSSSSSSSTTTTTTTTT")
         }
     }
     
@@ -81,27 +78,27 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
     
     // The main view is about to appear...
     override func viewWillAppear(_ animated: Bool) {
-//        // Set initial transform values 20% of original size
-//        let transform = CGAffineTransform(scaleX: 0.2, y: 0.2)
-//        // Apply the transform properties of the views
-//        loginNavBar.transform = transform
-//        fieldParentView.transform = transform
-//        // Set the alpha properties of the views to transparent
-//        loginNavBar.alpha = 0
-//        fieldParentView.alpha = 0
+        // Set initial transform values 20% of original size
+        let transform = CGAffineTransform(scaleX: 0.2, y: 0.2)
+        // Apply the transform properties of the views
+        loginNavBar.transform = transform
+        fieldParentView.transform = transform
+        // Set the alpha properties of the views to transparent
+        loginNavBar.alpha = 0
+        fieldParentView.alpha = 0
     }
     
     
     override func viewDidAppear(_ animated: Bool) {
-//        //Animate the code within over 0.3 seconds...
-//        UIView.animate(withDuration: 0.3) { () -> Void in
-//            // Return the views transform properties to their default states.
-//            self.fieldParentView.transform = CGAffineTransform()
-//            self.loginNavBar.transform = CGAffineTransform()
-//            // Set the alpha properties of the views to fully opaque
-//            self.fieldParentView.alpha = 1
-//            self.loginNavBar.alpha = 1
-//        }
+        //Animate the code within over 0.3 seconds...
+        UIView.animate(withDuration: 0.3) { () -> Void in
+            // Return the views transform properties to their default states.
+            self.fieldParentView.transform = CGAffineTransform(scaleX: 1.0, y: 1.0)
+            self.loginNavBar.transform = CGAffineTransform(scaleX: 1.0, y: 1.0)
+            // Set the alpha properties of the views to fully opaque
+            self.fieldParentView.alpha = 1
+            self.loginNavBar.alpha = 1
+        }
     }
     @IBAction func didTapBackBtn(_ sender: AnyObject) {
             navigationController!.popViewController(animated: true)
@@ -153,12 +150,10 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
                     self.present(alertController, animated: true) {
                         // optional code for what happens after the alert controller has finished presenting
                     }
-                    
                 })
             }
         }
     }
-
     /*
      // MARK: - Navigation
      

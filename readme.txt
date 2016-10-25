@@ -34,8 +34,8 @@ Time spent: `8 so far`
 1. Landing Screen:  
   - [x] Photo tiles move, scale and rotate while user scrolls.
 1. Sign In:
-  - [ ] User can scroll down to dismiss keyboard.
-  - [ ] User sees the form scale up and fade it in as the screen appears.
+  - [x] User can scroll down to dismiss keyboard.
+  - [x] User sees the form scale up and fade it in as the screen appears.
 1. Sign up / Create a Dropbox:
   - [ ] Tapping in the form reveals the keyboard and scrolls the form and button up so they remain visible.
   - [ ] Tapping the "Agree to Terms" checkbox selects the checkbox.
@@ -51,7 +51,7 @@ Time spent: `8 so far`
      - (1) View a photo full screen, (2) Swipe left and right and (3) Share a photo  - Upon completion of the events, mark them green.
   - [ ] When all events are completed, dismiss the banner.
 1. Settings
-  - [ ] User is presented with an action sheet with actions to cancel or logout.
+  - [x] User is presented with an action sheet with actions to cancel or logout.
 
 
 #### The following **additional** features are implemented:
@@ -60,7 +60,7 @@ Time spent: `8 so far`
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
+1. What other cool things can you do with content offset?
 2. 
 
 ### Video Walkthrough 
@@ -75,4 +75,4 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
-* Any libraries or borrowed content.
+* I built the app for iPhone 7+, so for the intro screen I had to futz with some of the numbers that describe positioning of the different tiles… I’m sure I could have done it better!

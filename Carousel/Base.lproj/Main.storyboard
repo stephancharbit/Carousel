@@ -54,7 +54,7 @@
                                         <rect key="frame" x="47" y="1070" width="281" height="52"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <segue destination="0B5-EY-sMW" kind="push" id="d2a-cZ-UsB"/>
+                                            <segue destination="0B5-EY-sMW" kind="push" animates="NO" id="d2a-cZ-UsB"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -417,7 +417,8 @@
                                         <rect key="frame" x="0.0" y="730" width="375" height="48"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <segue destination="4t9-Yu-GIV" kind="modal" id="X6p-K9-MEV"/>
+                                            <action selector="didTapSignOut:" destination="dSY-tz-zGu" eventType="touchUpInside" id="Uso-IN-our"/>
+                                            <segue destination="4t9-Yu-GIV" kind="modal" identifier="logoutSegue" id="drG-YV-DST"/>
                                         </connections>
                                     </button>
                                 </subviews>
